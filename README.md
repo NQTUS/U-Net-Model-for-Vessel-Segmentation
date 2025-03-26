@@ -1,4 +1,3 @@
-```markdown
 # U-Net Model for Vessel Segmentation
 
 This project implements an advanced multi-branch U-Net architecture for vessel segmentation in medical images, achieving state-of-the-art performance. By integrating VGG19, ResNeXt50, and EfficientNet-B4 backbones with an attention-based fusion mechanism, this model currently ranks **1st place** with a mean Dice score of **0.81966**, surpassing both advanced (0.80102) and basic (0.59445) baselines.
@@ -8,9 +7,8 @@ This project implements an advanced multi-branch U-Net architecture for vessel s
 ### Description
 The goal of this project is to segment blood vessels in medical images with high accuracy. The model is evaluated using the **mean Dice coefficient**, a metric that measures pixel-wise agreement between predicted segmentations and ground truth masks. The formula is:
 
-```
-Dice = 2 * |X ∩ Y| / (|X| + |Y|)
-```
+$Dice = 2 * |X ∩ Y| / (|X| + |Y|)$
+
 
 Where:
 - `X`: Predicted set of pixels.
