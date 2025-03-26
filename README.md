@@ -117,6 +117,5 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Acknowledgments
 - Built with [PyTorch](https://pytorch.org/) and [torchvision](https://pytorch.org/vision/stable/index.html).
 - Inspired by U-Net and multi-branch segmentation research.
-```
 
 
